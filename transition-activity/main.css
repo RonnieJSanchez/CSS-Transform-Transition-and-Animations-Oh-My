@@ -20,8 +20,13 @@ button {
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
+  background-color: ghostwhite;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-button:hover {
+button:hover,
+button:focus {
   background-color: cornflowerblue;
+  color: rgb(255, 255, 255);
+  transform: 2s;
 }
